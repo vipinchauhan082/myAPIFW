@@ -1,0 +1,11 @@
+PnACustGreater16:
+  username: aa
+  password: aa
+
+
+PnACustLess16:
+  username: aa
+  password: aa
+
+GenerateAuthToken-request:
+  soap_request_body: aa

@@ -1,0 +1,8 @@
+{
+  "baseuri": {
+    "basepath": "/payments/sca/n/validate"
+  },
+  "request": {
+    "abc": "abc"
+  }
+}

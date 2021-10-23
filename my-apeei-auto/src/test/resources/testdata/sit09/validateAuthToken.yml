@@ -1,0 +1,6 @@
+validateAuthToken-request:
+  brand: LT
+  channel: IBL
+  partyID: 1234567
+  tokenId: "{tokenId}"
+  validateType: DIGITAL

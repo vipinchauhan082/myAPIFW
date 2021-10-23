@@ -1,0 +1,10 @@
+{
+  "baseuri": {
+    "basepath": "/ArrangementSetupService"
+  },
+  "headers": {
+    "Content-Type": "application/xml"
+  },
+  "request": {
+  }
+}
