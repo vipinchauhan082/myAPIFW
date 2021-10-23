@@ -10,16 +10,13 @@ Go to your project directory from terminal and execute following commands
 * `mvn clean test` to run all the tests
 
 ##### Run scenario with 1 tag
-* `mvn test  -Dcucumber.options="--tags '@getaccount'"`
-* `mvn test  -Dcucumber.options="--tags '@scenario1'"`
-* `mvn test  -Dcucumber.options="--tags '@transactions'"`
-* `mvn test  -Dcucumber.options="--tags '@regression'"`
+* `mvn test  -Dcucumber.options="--tags '@test'"`
 
 ##### Run scenario with tag1 OR tag2
-* `mvn test  -Dcucumber.options="--tags '@accounts or @transactions'"`
+* `mvn test  -Dcucumber.options="--tags '@test or @test2'"`
 
 ##### Run scenario with tag1 AND tag2
-* ` mvn test  -Dcucumber.options="--tags '@accounts and @transactions'"`
+* ` mvn test  -Dcucumber.options="--tags '@test and @test'"`
 
 ##### Rerun scenario with tag:
 * `mvn test  -Dcucumber.options="--tags '@regression or @smoke'"`
@@ -32,9 +29,6 @@ Go to your project directory from terminal and execute following commands
 
 ##### Local execution on Build2 ACT
 * `mvn test -Plocal`
-
-##### Local execution on Build2 MFA 
-* `mvn test -Plocalmfa`
 
 ##### Default Profile i.e. Build2 ACT with Zap
 * `mvn test`
